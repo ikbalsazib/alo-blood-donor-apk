@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="blood_title">Blood Group: </string>
+
+
+    <string name="app_name">Alo Blood Donor</string>
+    <string name="sign_up_slogan">Become A Blood Donor Please Sign Up</string>
+    <string name="contact_us_slogan">\'Alo Blood Donor\' a sister concern of Save The Future Foundation</string>
+    <string name="about_us_head1">Save The Future এর মিশন:-</string>
+    <string name="about_us_head2">mission :-</string>
+    <string name="about_us_head3">vision :</string>
+    <string name="about_us_head1_txt_1">***  সুবিধাবঞ্চিত শিশুদের জন্য শিক্ষা নিশ্চিত করা</string>
+    <string name="about_us_head1_txt_2">*** সুবিধাবঞ্চিত শিশুদের জন্য স্বাস্থ্য সেবা নিশ্চিত করা</string>
+    <string name="about_us_head1_txt_3">*** পরিবেশ বিপর্যয় রোধে কার্যকরী কর্মসুচি পালন করা</string>
+    <string name="about_us_head1_txt_4">*** মুমূর্ষ রোগীকে স্বেচ্ছায় রক্তদান নিশ্চিত করা</string>
+    <string name="about_us_head1_txt_5">*** একদল সৎ,দক্ষ,স্বেচ্ছাসেবী দেশপ্রেমিক নেতৃত্ব গড়ে তোলা</string>
+
+    <string name="about_us_head2_txt_1">-দেশের যে কোন প্রান্ত থেকে আলোর সেবাদান নিশ্চিত করা।</string>
+    <string name="about_us_head2_txt_2">-অতি সহজে নিজের প্রয়োজনীয় রক্ত নিজে সংগ্রহ করার নিশ্চয়তা।</string>
+    <string name="about_us_head2_txt_3">-২৪ ঘন্টা সেবাদান নিশ্চিত করা।</string>
+    <string name="about_us_head2_txt_4">-সারা দেশের ছোট ছোট রক্তদান সংগঠনকে এক জায়গায় নিয়ে আসা সহ তাদের জন্যে বড় পরিসরে প্লাটফর্ম তৈরি করে দেয়া।</string>
+    <string name="about_us_head2_txt_5">-মানুষের মধ্যে সচেতনতা বৃদ্ধি করা।</string>
+    <string name="about_us_head2_txt_6">-জরুরী রক্ত যোগানে বিশেষ ভূমিকা রাখা।</string>
+    <string name="about_us_head2_txt_7">-কম সময়ে কম কষ্টে সহজে রক্তদাতা যোগান দেয়া।</string>
+
+    <string name="about_us_head3_txt_1">শতভাগ রক্তের চাহিদা পূরন করার মধ্যে দিয়ে একটি রোগীও যাতে রক্তের অভাবে মৃত্যুবরন করতে না হয় তা নিশ্চিত করা।</string>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+</resources>

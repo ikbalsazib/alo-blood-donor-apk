@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:gravity="center"
+                    android:textSize="48sp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="#EF1904" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#EF1904"
+                    android:layout_marginHorizontal="35dp"/>
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="255dp"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/app_banner"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us_head1"
+                android:textColor="#006ABB"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:layout_marginTop="4dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/about_us_head1_txt_1"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head1_txt_2"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head1_txt_3"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head1_txt_4"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head1_txt_5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#006ABB"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us_head2"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="15dp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="16sp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="16sp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="16sp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="16sp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head2_txt_7"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:textColor="#006ABB"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us_head3"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="16sp"
+                android:paddingVertical="7dp"
+                android:text="@string/about_us_head3_txt_1"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

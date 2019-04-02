@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fbf1f1"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Md. Iqbal Hossen"
+            android:textColor="#2e86c1"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/blood_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Blood Group: B+"
+            android:textColor=" #ea1b1b "
+            android:textSize="18sp" />
+
+        <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blood_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Phone No: 01773253900"
+        android:textColor="#05c620"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Address: Mirpur, Dhaka"
+            android:textColor="#7d3c98"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/age_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Age: 21 Years"
+            android:textColor="#ff8000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/weight_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Weight: 55 Kg"
+            android:textColor="#ff00bf"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Email: ikbal.sazib@gmail.com"
+            android:textColor="#4d5656"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#e74c3c"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

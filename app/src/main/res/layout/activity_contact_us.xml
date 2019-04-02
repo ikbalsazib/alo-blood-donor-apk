@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:background="@drawable/bg_red"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="48sp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="#fff"
+                    android:gravity="center"/>
+
+            </LinearLayout> <!--Top Title Layout-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#01AB44"
+                    android:text="@string/contact_us_slogan"
+                    android:padding="10dp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:textSize="22sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_margin="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#006ABB"
+                    android:text="Name: Md.Golam Mostafa Majumder"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#006ABB"
+                    android:text="Address: 204,Gausul azam super market,1st floor,Dhaka-1205"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:textColor="#006ABB"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="Phone: 01711-993655"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

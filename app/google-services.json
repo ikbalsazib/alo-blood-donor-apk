@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "403759301690",
+    "firebase_url": "https://alo-blood-donor-user-info.firebaseio.com",
+    "project_id": "alo-blood-donor-user-info",
+    "storage_bucket": "alo-blood-donor-user-info.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403759301690:android:2ab9ec826abba19b",
+        "android_client_info": {
+          "package_name": "com.aloblooddonor.bd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403759301690-0mk2bp3i2k25sp23d365f6alf2aefcbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aloblooddonor.bd",
+            "certificate_hash": "e4718c5060e8c928077b62ae3d150031e6fa42db"
+          }
+        },
+        {
+          "client_id": "403759301690-4f9lh6121jm59vu3nvveskgprnffgi6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP7F87lJMTNhSjVlnmnjJ0b6QTD3lnOQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403759301690-4f9lh6121jm59vu3nvveskgprnffgi6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

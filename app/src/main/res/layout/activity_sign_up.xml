@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/bg_gradint_1">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_marginBottom="20dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sign Up to Alo Blood Donor"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="22sp"-->
+            <!--android:fontFamily="@font/nunito_bold"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="5dp"/>-->
+
+    <!--</RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Your Full Name.."
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:drawableLeft="@drawable/ic_name"
+                android:padding="10dp"
+                android:layout_marginBottom="3dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Your Email.."
+                android:inputType="textEmailAddress"
+                android:drawablePadding="16dp"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Password.."
+                android:inputType="textPassword"
+                android:drawablePadding="16dp"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Your Phone No.."
+                android:inputType="phone"
+                android:drawablePadding="16dp"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextBlood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Your Blood Group.."
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:drawableLeft="@drawable/ic_icon_blood_drop"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Your Age.."
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:drawableLeft="@drawable/ic_directions_run_black_24dp"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Your Weight in KG.."
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:drawableLeft="@drawable/ic_av_timer_black_24dp"
+                android:layout_marginBottom="3dp"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Full Address.."
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:drawableLeft="@drawable/ic_home"
+                android:padding="10dp"
+                android:background="#D81B60"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buttonSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@color/signupactive"
+                android:textSize="17sp"
+                android:text="Sign Up"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnGoSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@color/signinactive"
+                android:text="Already Have an Account? Sign In Here"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

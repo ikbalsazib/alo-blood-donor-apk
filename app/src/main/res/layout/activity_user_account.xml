@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccount"
+    android:orientation="vertical">
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#F7EBE6">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/profilepic"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loading..."
+                android:gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textColor="#00B95C"
+                android:textSize="25dp"
+                android:paddingBottom="8dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textAllCaps="true"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FCACAC"> <!--For Border-->
+
+            </TableRow>
+
+        </LinearLayout> <!--Top Profile Content-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:background="#F9F9F9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <TextView
+                android:id="@+id/profileBlood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/profilePhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/profileAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/profileWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/profileAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:textColorHint="@color/colorAccent" />
+
+
+            <Button
+                android:id="@+id/buttonLogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:background="@color/signupactive"
+                android:text="SignOut"
+                android:fontFamily="sans-serif"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+</LinearLayout>
